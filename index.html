@@ -1,158 +1,99 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles.css" />
     <title>Flexbox</title>
   </head>
 
   <body class="page">
     <header class="header">
+      <!-- Header title -->
       <div class="header__title">
-        <div class="main-overlay">
-          <p>HTML:</p>
-          <br />
-          <pre>
-&lt;header class="header"&gt;
-  &lt;div class="header__title"&gt;
-    &lt;h1&gt;flexbox&lt;/h1&gt;
-  &lt;/div&gt;
-  [...]
-&lt;/header&gt;
-          </pre>
-          <p>CSS:</p>
-          <br />
-          <pre>
-.header {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 230px;
-  background-color: white;
-  margin: 20px 20px;
-}
-
-.header__title {
-  font-size: 96px;
-  font-weight: bold;
-  color: black;
-}
-          </pre>
-        </div>
         <h1>flexbox</h1>
-      </div>
-      <div class="header__subtitle header__subtitle_part_1">
-        <div class="secondary-overlay secondary-overlay_position_top_left">
+        <div class="overlay position_top-left">
           <p>HTML:</p>
-          <br />
+          <p></p>
           <pre>
-&lt;div class="header__subtitle
-  header__subtitle_part_1"&gt;
-  &lt;h2&gt;and how&lt;/h2&gt;
-&lt;/div&gt;
+&lt&gt;
           </pre>
           <p>CSS:</p>
-          <br />
+          <p></p>
           <pre>
-.header__subtitle {
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.header__subtitle_part_1 {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  color: #225095;
-}
-          </pre>
-        </div>
-        <h2>and how</h2>
-      </div>
-      <div class="header__subtitle header__subtitle_part_2">
-        <h2>absolute</h2>
-        <div class="secondary-overlay secondary-overlay_position_top-right">
-          <p>HTML:</p>
-          <br />
-          <pre>
-&lt;div class="header__subtitle
-  header__subtitle_part_2"&gt;
-  &lt;h2&gt;absolute&lt;/h2&gt;
-&lt;/div&gt;
-            </pre
-          >
-          <p>CSS:</p>
-          <br />
-          <pre>
-.header__subtitle {
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.header__subtitle_part_2 {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  color: #fac901;
-}
-            </pre
-          >
-        </div>
-      </div>
-      <div class="header__subtitle header__subtitle_part_3">
-        <h2>positioning</h2>
-        <div class="secondary-overlay secondary-overlay_position_bottom-left">
-          <p>HTML:</p>
-          <br />
-          <pre>
-&lt;div class="header__subtitle
-  header__subtitle_part_3"&gt;
-  &lt;h2&gt;positioning&lt;/h2&gt;
-&lt;/div&gt;
-            </pre
-          >
-          <p>CSS:</p>
-          <br />
-          <pre>
-.header__subtitle {
-  font-size: 16px;
-  font-weight: bold;
-}
-
-.header__subtitle_part_3 {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  color: #dd0100;
+.class {
 }
           </pre>
         </div>
       </div>
-      <div class="header__subtitle header__subtitle_part_4">
-        <h2>works</h2>
-        <div class="secondary-overlay secondary-overlay_position_bottom-right">
-          <p>HTML:</p>
-          <br />
-          <pre>
-&lt;div class="header__subtitle
-  header__subtitle_part_4"&gt;
-  &lt;h2&gt;works&lt;/h2&gt;
-&lt;/div&gt;
-            </pre
-          >
-          <p>CSS:</p>
-          <br />
-          <pre>
-.header__subtitle {
-  font-size: 16px;
-  font-weight: bold;
-}
 
-.header__subtitle_part_4 {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  color: ##225095;
+      <!-- Header subtitle, part 1 -->
+      <div class="header__subtitle_part_1">
+        <h2 class="header__subtitle-text">and how</h2>
+        <div class="overlay position_top-left">
+          <p>HTML:</p>
+          <p></p>
+          <pre>
+&lt&gt;
+          </pre>
+          <p>CSS:</p>
+          <p></p>
+          <pre>
+.class {
+}
+          </pre>
+        </div>
+      </div>
+
+      <!-- Header subtitle, part 2 -->
+      <div class="header__subtitle_part_2">
+        <h2 class="header__subtitle-text">absolute</h2>
+        <div class="overlay position_top-right">
+          <p>HTML:</p>
+          <p></p>
+          <pre>
+&lt&gt;
+          </pre>
+          <p>CSS:</p>
+          <p></p>
+          <pre>
+.class {
+}
+          </pre>
+        </div>
+      </div>
+
+      <!-- Header subtitle, part 3 -->
+      <div class="header__subtitle_part_3">
+        <h2 class="header__subtitle-text">positioning</h2>
+        <div class="overlay position_bottom-left">
+          <p>HTML:</p>
+          <p></p>
+          <pre>
+&lt&gt;
+          </pre>
+          <p>CSS:</p>
+          <p></p>
+          <pre>
+.class {
+}
+          </pre>
+        </div>
+      </div>
+
+      <!-- Header subtitle, part 4 -->
+      <div class="header__subtitle_part_4">
+        <h2 class="header__subtitle-text">works</h2>
+        <div class="overlay position_bottom-right">
+          <p>HTML:</p>
+          <p></p>
+          <pre>
+&lt&gt;
+          </pre>
+          <p>CSS:</p>
+          <p></p>
+          <pre>
+.class {
 }
           </pre>
         </div>
@@ -161,75 +102,26 @@
 
     <main class="main">
       <div class="grid">
+        <!-- Cell -->
         <div class="grid__item-heading grid__item-heading_accent_1">
-          <div class="main-overlay">
-            <p>HTML:</p>
-            <br />
-            <pre class="code">
-&lt;div class="grid__item-heading grid__item-heading_accent_1"&gt;
-  &lt;p&gt;What is flexbox?&lt;/p&gt;
-  &lt;div class="overlay"&gt;&lt;/div&gt;
-&lt;/div&gt;
-            </pre>
-            <p>CSS:</p>
-            <br />
-            <pre class="code">
-.grid__item-heading {
-  width: 335px;
-  height: 120px;
-  color: white;
-  font-size: 22px;
-  font-weight: bold;
-  padding: 20px;
-  position: relative;
-}
-.grid__item-heading_accent_1 {
-  background-color: #225095;
-}
-              </pre
-            >
-          </div>
           <h2>what is flexbox?</h2>
-        </div>
-        <div class="grid__item-text">
-          <div class="main-overlay">
+          <div class="overlay position_top-left">
             <p>HTML:</p>
-            <pre class="code">
-              &lt;div class="grid__item-text"&gt;
-              &lt;p&gt;Flexbox is...&lt;/p&gt;
-              &lt;div class="overlay"&gt;&lt;/div&gt;
-              &lt;/div&gt;
+            <p></p>
+            <pre>
+&lt&gt;
             </pre>
-            <br />
             <p>CSS:</p>
-            <pre class="code">
-              .grid__item-text {
-                position: relative;
-                width: 335px;
-                height: 120px;
-                padding: 20px;
-                background-color: white;
-                color: black;
-                font-size: 12px;
-              }
-              .overlay {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: inherit;
-                height: inherit;
-                background-color: black;
-                color: white;
-                opacity: 0;
-                transition: opacity 0.1s;
-                overflow: auto;
-                padding: 20px;
-              }
-              .grid__item-text:hover .overlay {
-                opacity: 1;
-              }
+            <p></p>
+            <pre>
+.class {
+}
             </pre>
           </div>
+        </div>
+
+        <!-- Cell -->
+        <div class="grid__item-text">
           <p>
             Flexbox is a layout model in CSS that makes it easier to create
             responsive and flexible layouts. It allows elements within a
@@ -237,53 +129,228 @@
             space, and it makes it easy to align and distribute space among
             elements in a container.
           </p>
+          <div class="overlay position_top-left">
+            <p>HTML:</p>
+            <p></p>
+            <pre>
+&lt&gt;
+            </pre>
+            <p>CSS:</p>
+            <p></p>
+            <pre>
+.class {
+}
+            </pre>
+          </div>
         </div>
-        <h2 class="grid__item-heading grid__item-heading_accent_2">
-          display: flex;
-        </h2>
-        <p class="grid__item-text">
-          This sets the element to which it is applied as a flex container. In
-          other words, it creates a flexbox. This means that the element's child
-          elements will be automatically arranged and resized within the
-          container according to the flexbox layout model.
-        </p>
-        <h2 class="grid__item-heading grid__item-heading_accent_3">
-          justify-content: space-between;
-        </h2>
-        <p class="grid__item-text">
-          The justify-content property is used to align flex items within a flex
-          container along the main axis. When it is equal to space-between, it
-          distributes the blank space evenly between (not around) elements.
-          Alternatives include center, space-around, and space-evenly.
-        </p>
-        <h2 class="grid__item-heading grid__item-heading_accent_1">
-          align-items: center;
-        </h2>
-        <p class="grid__item-text">
-          The align-items property can be used to control the alignment of flex
-          items within a flex container along the cross (i.e., not main) axis.
-          When it is equal to center, by default, it centers items vertically in
-          the container. Alternatives include start, end, and stretch.
-        </p>
-        <h2 class="grid__item-heading grid__item-heading_accent_2">
-          flex-wrap: wrap;
-        </h2>
-        <p class="grid__item-text">
-          This is used to control the behavior of flex items when there is not
-          enough space to fit them all within a flex container. It causes the
-          flex items to wrap onto multiple lines if necessary, rather than
-          shrinking them. Alternatives include nowrap and wrap-reverse.
-        </p>
-        <h2 class="grid__item-heading grid__item-heading_accent_3">
-          other CSS properties
-        </h2>
-        <ul class="grid__item-text list">
-          <li>flex-direction (default: row)</li>
-          <li>order (default: 0)</li>
-          <li>align-self (default: auto)</li>
-          <li>flex-grow (default: 0)</li>
-          <li>flex-shrink (default: 1)</li>
-        </ul>
+
+        <!-- Cell -->
+        <div class="grid__item-heading grid__item-heading_accent_2">
+          <h2>display: flex;</h2>
+          <div class="overlay position_top-left">
+            <p>HTML:</p>
+            <p></p>
+            <pre>
+&lt&gt;
+            </pre>
+            <p>CSS:</p>
+            <p></p>
+            <pre>
+.class {
+}
+            </pre>
+          </div>
+        </div>
+
+        <!-- Cell -->
+        <div class="grid__item-text">
+          <p>
+            This sets the element to which it is applied as a flex container. In
+            other words, it creates a flexbox. This means that the element's
+            child elements will be automatically arranged and resized within the
+            container according to the flexbox layout model.
+          </p>
+          <div class="overlay position_top-left">
+            <p>HTML:</p>
+            <p></p>
+            <pre>
+&lt&gt;
+            </pre>
+            <p>CSS:</p>
+            <p></p>
+            <pre>
+.class {
+}
+            </pre>
+          </div>
+        </div>
+
+        <!-- Cell -->
+        <div class="grid__item-heading grid__item-heading_accent_3">
+          <h2>justify-content: space-between;</h2>
+          <div class="overlay position_top-left">
+            <p>HTML:</p>
+            <p></p>
+            <pre>
+&lt&gt;
+            </pre>
+            <p>CSS:</p>
+            <p></p>
+            <pre>
+.class {
+}
+            </pre>
+          </div>
+        </div>
+
+        <!-- Cell -->
+        <div class="grid__item-text">
+          <p>
+            The justify-content property is used to align flex items within a
+            flex container along the main axis. When it is equal to
+            space-between, it distributes the blank space evenly between (not
+            around) elements. Alternatives include center, space-around, and
+            space-evenly.
+          </p>
+          <div class="overlay position_top-left">
+            <p>HTML:</p>
+            <p></p>
+            <pre>
+&lt&gt;
+            </pre>
+            <p>CSS:</p>
+            <p></p>
+            <pre>
+.class {
+}
+            </pre>
+          </div>
+        </div>
+
+        <!-- Cell -->
+        <div class="grid__item-heading grid__item-heading_accent_1">
+          <h2>align-items: center;</h2>
+          <div class="overlay position_top-left">
+            <p>HTML:</p>
+            <p></p>
+            <pre>
+&lt&gt;
+            </pre>
+            <p>CSS:</p>
+            <p></p>
+            <pre>
+.class {
+}
+            </pre>
+          </div>
+        </div>
+
+        <!-- Cell -->
+        <div class="grid__item-text">
+          <p>
+            The align-items property can be used to control the alignment of
+            flex items within a flex container along the cross (i.e., not main)
+            axis. When it is equal to center, by default, it centers items
+            vertically in the container. Alternatives include start, end, and
+            stretch.
+          </p>
+          <div class="overlay position_top-left">
+            <p>HTML:</p>
+            <p></p>
+            <pre>
+&lt&gt;
+            </pre>
+            <p>CSS:</p>
+            <p></p>
+            <pre>
+.class {
+}
+            </pre>
+          </div>
+        </div>
+
+        <!-- Cell -->
+        <div class="grid__item-heading grid__item-heading_accent_2">
+          <h2>flex-wrap: wrap;</h2>
+          <div class="overlay position_top-left">
+            <p>HTML:</p>
+            <p></p>
+            <pre>
+&lt&gt;
+            </pre>
+            <p>CSS:</p>
+            <p></p>
+            <pre>
+.class {
+}
+            </pre>
+          </div>
+        </div>
+
+        <!-- Cell -->
+        <div class="grid__item-text">
+          <p>
+            This is used to control the behavior of flex items when there is not
+            enough space to fit them all within a flex container. It causes the
+            flex items to wrap onto multiple lines if necessary, rather than
+            shrinking them. Alternatives include nowrap and wrap-reverse.
+          </p>
+          <div class="overlay position_top-left">
+            <p>HTML:</p>
+            <p></p>
+            <pre>
+&lt&gt;
+            </pre>
+            <p>CSS:</p>
+            <p></p>
+            <pre>
+.class {
+}
+            </pre>
+          </div>
+        </div>
+
+        <!-- Cell -->
+        <div class="grid__item-heading grid__item-heading_accent_3">
+          <h2>other CSS properties</h2>
+          <div class="overlay position_top-left">
+            <p>HTML:</p>
+            <p></p>
+            <pre>
+&lt&gt;
+            </pre>
+            <p>CSS:</p>
+            <p></p>
+            <pre>
+.class {
+}
+            </pre>
+          </div>
+        </div>
+
+        <!-- Cell -->
+        <div class="grid__item-text">
+          <ul class="list">
+            <li>flex-direction (default: row)</li>
+            <li>order (default: 0)</li>
+            <li>align-self (default: auto)</li>
+            <li>flex-grow (default: 0)</li>
+            <li>flex-shrink (default: 1)</li>
+          </ul>
+          <div class="overlay position_top-left">
+            <p>HTML:</p>
+            <p></p>
+            <pre>
+&lt&gt;
+            </pre>
+            <p>CSS:</p>
+            <p></p>
+            <pre>
+.class {
+}
+            </pre>
+          </div>
+        </div>
       </div>
     </main>
 
