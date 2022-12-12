@@ -219,12 +219,35 @@
             <p>HTML:</p>
             <p></p>
             <pre>
-&lt&gt;
+&lt;div class="grid"&gt;
+  &lt;div class="grid__item-heading grid__item-heading_accent_1"&gt;
+    &lt;h2&gt;what is flexbox?&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
             </pre>
             <p>CSS:</p>
             <p></p>
             <pre>
-.class {
+.grid {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  margin: 20px 0;
+}
+
+.grid__item-heading {
+  width: 335px;
+  height: 120px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+}
+
+.grid__item-heading_accent_1 {
+  background-color: #225095;
 }
             </pre>
           </div>
@@ -243,14 +266,16 @@
             <p>HTML:</p>
             <p></p>
             <pre>
-&lt;div class="grid__item-text"&gt;
-  &lt;p&gt;
-    Flexbox is a layout model in CSS that makes it easier to create
-    responsive and flexible layouts. It allows elements within a
-    container to be automatically arranged depending on the available
-    space, and it makes it easy to align and distribute space among
-    elements in a container.
-  &lt;/p&gt;
+&lt;div class="grid"&gt;
+  &lt;div class="grid__item-text"&gt;
+    &lt;p&gt;
+      Flexbox is a layout model in CSS that makes it easier to create
+      responsive and flexible layouts. It allows elements within a
+      container to be automatically arranged depending on the available
+      space, and it makes it easy to align and distribute space among
+      elements in a container.
+    &lt;/p&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
             </pre>
             <p>CSS:</p>
@@ -284,12 +309,35 @@
             <p>HTML:</p>
             <p></p>
             <pre>
-&lt&gt;
+&lt;div class="grid"&gt;
+  &lt;div class="grid__item-heading grid__item-heading_accent_2"&gt;
+    &lt;h2&gt;display: flex;&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
             </pre>
             <p>CSS:</p>
             <p></p>
             <pre>
-.class {
+.grid {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  margin: 20px 0;
+}
+
+.grid__item-heading {
+  width: 335px;
+  height: 120px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+}
+
+.grid__item-heading_accent_2 {
+  background-color: #dd0100;
 }
             </pre>
           </div>
@@ -307,13 +355,15 @@
             <p>HTML:</p>
             <p></p>
             <pre>
-&lt;div class="grid__item-text"&gt;
-  &lt;p&gt;
-    This sets the element to which it is applied as a flex container. In
-    other words, it creates a flexbox. This means that the element's
-    child elements will be automatically arranged and resized within the
-    container according to the flexbox layout model.
-  &lt;/p&gt;
+&lt;div class="grid"&gt;
+  &lt;div class="grid__item-text"&gt;
+    &lt;p&gt;
+      This sets the element to which it is applied as a flex container. In
+      other words, it creates a flexbox. This means that the element's
+      child elements will be automatically arranged and resized within the
+      container according to the flexbox layout model.
+    &lt;/p&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
             </pre>
             <p>CSS:</p>
@@ -347,12 +397,35 @@
             <p>HTML:</p>
             <p></p>
             <pre>
-&lt&gt;
+&lt;div class="grid"&gt;
+  &lt;div class="grid__item-heading grid__item-heading_accent_3"&gt;
+    &lt;h2&gt;justify-content: space-between;&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
             </pre>
             <p>CSS:</p>
             <p></p>
             <pre>
-.class {
+.grid {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  margin: 20px 0;
+}
+
+.grid__item-heading {
+  width: 335px;
+  height: 120px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+}
+
+.grid__item-heading_accent_3 {
+  background-color: #fac901;
 }
             </pre>
           </div>
@@ -371,14 +444,16 @@
             <p>HTML:</p>
             <p></p>
             <pre>
-&lt;div class="grid__item-text"&gt;
-  &lt;p&gt;
-    The justify-content property is used to align flex items within a
-    flex container along the main axis. When it is equal to
-    space-between, it distributes the blank space evenly between (not
-    around) elements. Alternatives include center, space-around, and
-    space-evenly.
-  &lt;/p&gt;
+&lt;div class="grid"&gt;
+  &lt;div class="grid__item-text"&gt;
+    &lt;p&gt;
+      The justify-content property is used to align flex items within a
+      flex container along the main axis. When it is equal to
+      space-between, it distributes the blank space evenly between (not
+      around) elements. Alternatives include center, space-around, and
+      space-evenly.
+    &lt;/p&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
             </pre>
             <p>CSS:</p>
@@ -412,12 +487,35 @@
             <p>HTML:</p>
             <p></p>
             <pre>
-&lt&gt;
+&lt;div class="grid"&gt;
+  &lt;div class="grid__item-heading grid__item-heading_accent_1"&gt;
+    &lt;h2&gt;align-items: center;&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
             </pre>
             <p>CSS:</p>
             <p></p>
             <pre>
-.class {
+.grid {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  margin: 20px 0;
+}
+
+.grid__item-heading {
+  width: 335px;
+  height: 120px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+}
+
+.grid__item-heading_accent_1 {
+  background-color: #225095;
 }
             </pre>
           </div>
@@ -436,14 +534,16 @@
             <p>HTML:</p>
             <p></p>
             <pre>
-&lt;div class="grid__item-text"&gt;
-  &lt;p&gt;
-    The align-items property can be used to control the alignment of
-    flex items within a flex container along the cross (i.e., not main)
-    axis. When it is equal to center, by default, it centers items
-    vertically in the container. Alternatives include start, end, and
-    stretch.
-  &lt;/p&gt;
+&lt;div class="grid"&gt;
+  &lt;div class="grid__item-text"&gt;
+    &lt;p&gt;
+      The align-items property can be used to control the alignment of
+      flex items within a flex container along the cross (i.e., not main)
+      axis. When it is equal to center, by default, it centers items
+      vertically in the container. Alternatives include start, end, and
+      stretch.
+    &lt;/p&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
             </pre>
             <p>CSS:</p>
@@ -477,12 +577,35 @@
             <p>HTML:</p>
             <p></p>
             <pre>
-&lt&gt;
+&lt;div class="grid"&gt;
+  &lt;div class="grid__item-heading grid__item-heading_accent_2"&gt;
+    &lt;h2&gt;flex-wrap: wrap;&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
             </pre>
             <p>CSS:</p>
             <p></p>
             <pre>
-.class {
+.grid {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  margin: 20px 0;
+}
+
+.grid__item-heading {
+  width: 335px;
+  height: 120px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+}
+
+.grid__item-heading_accent_2 {
+  background-color: #dd0100;
 }
             </pre>
           </div>
@@ -500,13 +623,15 @@
             <p>HTML:</p>
             <p></p>
             <pre>
-&lt;div class="grid__item-text"&gt;
-  &lt;p&gt;
-    This is used to control the behavior of flex items when there is not
-    enough space to fit them all within a flex container. It causes the
-    flex items to wrap onto multiple lines if necessary, rather than
-    shrinking them. Alternatives include nowrap and wrap-reverse.
-  &lt;/p&gt;
+&lt;div class="grid"&gt;
+  &lt;div class="grid__item-text"&gt;
+    &lt;p&gt;
+      This is used to control the behavior of flex items when there is not
+      enough space to fit them all within a flex container. It causes the
+      flex items to wrap onto multiple lines if necessary, rather than
+      shrinking them. Alternatives include nowrap and wrap-reverse.
+    &lt;/p&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
             </pre>
             <p>CSS:</p>
@@ -540,12 +665,35 @@
             <p>HTML:</p>
             <p></p>
             <pre>
-&lt&gt;
+&lt;div class="grid"&gt;
+  &lt;div class="grid__item-heading grid__item-heading_accent_3"&gt;
+    &lt;h2&gt;other CSS properties&lt;/h2&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
             </pre>
             <p>CSS:</p>
             <p></p>
             <pre>
-.class {
+.grid {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  margin: 20px 0;
+}
+
+.grid__item-heading {
+  width: 335px;
+  height: 120px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px;
+  position: relative;
+}
+
+.grid__item-heading_accent_3 {
+  background-color: #fac901;
 }
             </pre>
           </div>
@@ -564,14 +712,16 @@
             <p>HTML:</p>
             <p></p>
             <pre>
-&lt;div class="grid__item-text"&gt;
-  &lt;ul class="list"&gt;
-    &lt;li&gt;flex-direction (default: row)&lt;/li&gt;
-    &lt;li&gt;order (default: 0)&lt;/li&gt;
-    &lt;li&gt;align-self (default: auto)&lt;/li&gt;
-    &lt;li&gt;flex-grow (default: 0)&lt;/li&gt;
-    &lt;li&gt;flex-shrink (default: 1)&lt;/li&gt;
-  &lt;/ul&gt;
+&lt;div class="grid"&gt;
+  &lt;div class="grid__item-text"&gt;
+    &lt;ul class="list"&gt;
+      &lt;li&gt;flex-direction (default: row)&lt;/li&gt;
+      &lt;li&gt;order (default: 0)&lt;/li&gt;
+      &lt;li&gt;align-self (default: auto)&lt;/li&gt;
+      &lt;li&gt;flex-grow (default: 0)&lt;/li&gt;
+      &lt;li&gt;flex-shrink (default: 1)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
             </pre>
             <p>CSS:</p>
