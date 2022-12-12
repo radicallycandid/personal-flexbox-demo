@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Helvetica", sans-serif;
 }
 
 .page {
   background-color: black;
+  font-family: "Helvetica", sans-serif;
 }
 
 .header {
